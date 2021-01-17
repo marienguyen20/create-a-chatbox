@@ -1,6 +1,6 @@
 # Create a chatbox
 
-## Chatroom Server-Side Socket Programming:
+## Chatroom Server:
 The role of the server is to collect any incoming messages and deliver them to the other client/clients.
 
 1) Importing required libraries: 
@@ -65,7 +65,7 @@ while True:
 
 - The incoming message is received using the ```recv()``` of the conn object. It can receive up to 1024 bytes of information. The message is decoded on the server-side using ```decode()```.
 
-## Chatroom Client-Side Socket Programming
+## Chatroom Client:
 
 We’ll create a file named client.py and create our code to connect and communicate with the chat server.
 
